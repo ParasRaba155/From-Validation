@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="En-US">
+
+<head>
+  <title>Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../CSS/custmoer_detail(01-06).css" </head>
+
+<body>
+  <div class="container">
+    <form class="signup" method="post" action="">
+      <div class="header_div">
+        <h1>Custmoer Details:</h1>
+        <hr>
+      </div>
+
+
+      <div class="body_div">
+        <div class="h_grp">
+          <h2 class="G_titles asterick">Full Name</h2>
+          <div class="grp left">
+            <input type="text" id="fname" onclick="" name="fname" class="form-input" value="">
+            <!-- <br>
+            <br>
+            <br> -->
+            <p id="OP1"></p>
+            <label for="fname">First Name</label>
+            
+
+          </div>
+
+          <div class="grp right">
+            <input type="text" id="lname" name="lname"  class="form-input">
+            <p id="OP2"></p>
+            <label for="lname">Last Name</label>
+          </div>
+
+
+          <hr class="hiddenHr">
+
+          <div class="a_grp">
+
+            <h2 class="G_titles asterick">Address</h2>
+            <div class="f_grp">
+              <input type="text" id="staddress" size="40%" class="form-input">
+              <label for="staddresss">Street Address</label>
+            </div>
+
+
+            <div class="f_grp">
+              <input type="text" name="staddress2" size="40%" class="form-input">
+              <label for="staddresss2">Street Address Line 2</label>
+            </div>
+
+
+            <div class="h_grp">
+              <div class="grp left">
+                <input type="text" id="city" size="40%" class="form-input">
+                <label for="city">City</label>
+
+              </div>
+
+              <div class="grp right">
+                <input type="text" id="state" size="40%" class="form-input">
+                <label for="state">State/Province</label>
+              </div>
+
+              <div class="f_grp">
+                <input type="text" id="zipcode" size="40%" class="form-input">
+                <label for="zipcode">Postal/Zipcode</label>
+              </div>
+
+
+
+              <hr class="hiddenHr">
+
+
+
+              <div class="h_grp">
+                <h2 class="G_titles asterick">Phone number</h2>
+                <div class="grp left">
+                  <input type="tel" id="phone" size="40%" class="form-input" placeholder="(000) 0000-000">
+                </div>
+
+              </div>
+
+              <hr class="hiddenHr">
+
+
+
+              <div class="h_grp">
+                <h2 class="G_titles">Email</h2>
+                <div class="grp left">
+                  <input type="text" id="email" size="40%" class="form-input" placeholder="ex:email@yahoo.com">
+                  <label for="email">Example@example.com</label>
+
+                </div>
+              </div>
+
+              <hr class="hiddenHr">
+
+
+
+              <div class="h_grp">
+                <h2 class="G_titles">How did you here about us</h2>
+                <div class="grp left">
+                  <select name="foundus" id="foundus" class="form-input">
+                    <option value="magazine">Magazine</option>
+                    <option value="newspaper">Newspaper</option>
+                    <option value="social">Social-media</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <hr class="hiddenHr">
+
+
+              <div class="h_grp">
+                <h2 class="G_titles">Feedback about us</h2>
+                <div class="f_grp">
+                  <textarea class="form-input t_area" rows="7"></textarea>
+                </div>
+
+                <hr class="hiddenHr">
+
+
+
+                <div class="h_grp">
+                  <h2 class="G_titles">Suggestion for any further imporovement</h2>
+                  <div class="f_grp">
+                    <textarea class="form-input t_area" rows="7"></textarea>
+                  </div>
+
+                  <hr class="hiddenHr">
+                  <div class="h_grp">
+                    <div class="f_grp">
+                      <label class="r_check">Will you be willing to recommand us<input type="checkbox"
+                          name="check"></label>
+                    </div>
+
+                    <hr class="hiddenHr">
+                    <hr class="hiddenHr">
+                    <hr class="hiddenHr">
+
+                    <div>
+                      <label style="font-size:16;float:inline-start">Gender :</label>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="male">Male</label>
+                      <input type="radio" id="female" name="gender" value="Female">
+                      <label for="female">Female</label>
+                      <input type="radio" id="other" name="gender" value="Other">
+                      <label for="other">Other</label>
+
+                    </div><br>
+
+
+                    <hr class="hiddenHr">
+                    <hr class="hiddenHr">
+
+
+
+
+
+
+
+
+
+
+                    <div class="h_grp">
+                      <!-- <label for="address">Address</label> -->
+                      <!-- <h2 class="G_titles">Suggestion for any further imporovement</h2> -->
+                      <div class="f_grp">
+
+
+                        <hr class="hiddenHr">
+                        <hr class="hiddenHr">
+
+                        <table>
+                          <form>
+                            <tr>
+                              <th class="empty_row number"></th>
+                              <th>Full Name</th>
+                              <th>Address</th>
+                              <th>Phone Number</th>
+                            </tr>
+                            <tr>
+                              <td class="tfield">1</td>
+                              <td><input type="text" class="wtd"></td>
+                              <td><input type="text" class="wtd"></td>
+                              <td><input type="text" class="wtd"></td>
+                            </tr>
+                            <tr>
+                              <td class="tfield">2</td>
+                              <td><input type="text" class="wtd"></td>
+                              <td><input type="text" class="wtd"></td>
+                              <td><input type="text" class="wtd"></td>
+                            </tr>
+                          </form>
+                        </table><br>
+                      </div>
+                      <hr class="hiddenHr">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <input type="submit" value="Submit" class="submit_class" onclick="validateForm()">
+    </form>
+
+    <script src="../JS/validation.js"></script>
+</body>
