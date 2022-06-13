@@ -215,10 +215,37 @@ function email_val(){
 
 }
 
+
+function gender_val(){
+
+    let male = document.getElementById("male");
+    let female = document.getElementById("female");
+    let other = document.getElementById("other");
+    let gender = document.getElementsByName("gender");
+
+    if(!gender.checked){
+        let text;
+        text = 'You need to select atleast one of the following'
+        document.getElementById("OPr").innerHTML = text;
+
+    }
+
+    // if (!male.checked && !female.checked && !other.checked){
+    //     let text;
+    //     text = 'You need to select atleast one of the following'
+    //     document.getElementById("OPr").innerHTML = text;
+
+    // }
+    else{
+        console.log("Something is checked");
+    }
+
+}
+
 function sugg_val(){
     let sugg = document.getElementById("suggest");
 
-    if(sugg.value.length > 2){
+    if(sugg.value.length < 3){
         let text;
         text = 'Plase write suggestion from 3 to 600 words'
         document.getElementById("OP9").innerHTML = text;
@@ -229,10 +256,10 @@ function feedbk_val(){
 
     let feedbk = document.getElementById("suggest");
 
-    if(feedbk.value.length > 2){
+    if(feedbk.value.length < 3){
         let text;
         text = 'Plase write suggestion from 3 to 600 words'
-        document.getElementById("OP9").innerHTML = text;
+        document.getElementById("OP10").innerHTML = text;
     }
 
 }
